@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+header { 
+    font-size: 50px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+h6 {
+    font-size: 20px;
+    margin: 10px;
+    color: #5596F5;
+    display: flex;
+}
+
+h5 {
+    font-size: 25px;
+    color: #5596F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180px;
+}
+
+/* ------- */
+
+.backgroundDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* to do list */
+
+.toDoText {
+    color: #FFFFFF;
+    display: flex;
+    font-size: 25px;
+    font-family: Cedarville Cursive, cursive;
+}
+
+
+.todoInput {
+    display: flex;
+    width: 22vw;
+    flex-direction: row;
+
+}
+
+.outPutDiv {
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    font-family: Cedarville Cursive, cursive;
+}
+
+h3 {
+    margin: 1px;
+
+}
+
+/* save button */
+.saveBtn {
+    display: flex;
+    background-color: #5596F5;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    width: 13vw;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px; 
+  
+
+}
+
+/* logout button */
+.logOutBtn {
+    display: flex;
+    background-color: #5596F5;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    width: 15vw;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; 
+
+}
+

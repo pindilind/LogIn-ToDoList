@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+header { 
+    font-size: 65px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+}
+
+h6 {
+    font-size: 30px;
+    margin: 10px;
+    color: #5596F5;
+    display: flex;
+}
+
+h5 {
+    font-size: 35px;
+    color: #5596F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 310px;
+}
+
+/* ------- */
+
+.backgroundDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* input for username */
+.usernameInput {
+    display: flex;
+    width: 22vw;
+    margin: 1px;
+}
+
+.userText {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: flex-start;
+    margin-right: 215px;
+   
+}
+
+/* ------ */
+
+/* input for password */
+.passwordInput {
+    display: flex;
+    width: 22vw;
+    margin: 1px;
+}
+
+.passwordText {
+    display: flex;
+    color: #FFFFFF;
+    margin-right: 219px;
+    
+}
+
+
+
+/* --------------------------- */
+
+
+
+/* login button */
+.loginBtn {
+    display: flex;
+    background-color: #5596F5;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    width: 13vw;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;  
+}
+
+/* --------------------- */
+
+.justText {
+    color: #FFFFFF;
+    display: flex;
+    font-size: 25px;
+    font-family: Cedarville Cursive, cursive;
+    margin: 40px;
+}
+
+.newAccunt {
+    display: flex;
+    width: 17vw;
+    margin: 1px;
+    
+}
+
+.newUserText {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: flex-start;
+    margin-right: 115px;
+    margin-top: -48px;
+}
+
+.newPassword {
+    display: flex;
+    width: 17vw;
+    margin: 1px;
+
+}
+
+.newUserPassword {
+    display: flex;
+    color: #FFFFFF;
+    margin-right: 120px;
+
+}
+
+/* Create accunt button */
+.createAccuntBtn {
+    display: flex;
+    background-color: #5596F5;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    width: 11vw;
+    height: 3vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px; 
+
+}
